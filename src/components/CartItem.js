@@ -12,7 +12,7 @@ const CartItem = ({ name, quantity, total, price, id }) => {
       cartActions.addToCart({
         id,
         name,
-        price,
+        price
       })
     );
   };
